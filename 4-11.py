@@ -1,5 +1,8 @@
-list = [1,2,3,5,2,6,4,2,7,5,2,1,4]
+lst=[]
+n=int(input("Enter the number of values upto you want to add element into element: "))
+for i in range (n):
+    lst.append(int(input("enter: ")))
 
-list1 = set(list)
-
-print(list1)
+print("List With Duplicacy",lst)
+mySet=set(lst)
+print("List Without Duplicacy",lst1:=list(mySet)) #directly declaring using walrus operator
